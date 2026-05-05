@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIT Intro</title>
 </head>
+
 <body>
     <main>
         <img src="" alt="">
+        <h2>Check GIT version:</h2>
+        <ul>
+            <ol>
+                <li>git --version"</li>
+            </ol>
+        </ul>
+        <h2>Initial Setup & Configuration:</h2>
+        <h3>Configure your identity across all local repositories</h3>
+        <ul>
+            <ol>
+                <li>Set username: git config --global user.name "[name]"</li>
+                <li>Set email: git config --global user.email "[email]"</li>
+            </ol>
+        </ul>
+
+        <h2>New local repo:</h2>
+        <h3>Starting a Project Create a new repository or clone an existing one.</h3>
+        <ul>
+            <ol>
+                <li>git init [project-name]</li>
+                <li>git clone [url]</li>
+            </ol>
+        </ul>
+
+        <h2>Check the status of files:</h2>
+        <h3>checking the status of untracked files and changes</h3>
+        <ul>
+            <ol>
+                <li>git status</li>
+            </ol>
+        </ul>
+
+        <h2>Stage file and Commit changes :</h2>
+        <h3>Commiting the untracked files and changes to local repository</h3>
+        <ul>
+            <ol>
+                <li>Stage file: git add [filename] Stage all: git add .</li>
+                <li>Commit changes: git commit -m "[message]"</li>
+            </ol>
+        </ul>
+
+        <h2>Push the changes to GitHub Server :</h2>
+        <h3>Pushing the files and changes to remote repository on GitHub</h3>
+        <ul> 
+            <ol>
+                <li>git push [remote] [branch]
+                </li>
+                <li># Example: git push origin master</li>
+            </ol>
+        </ul>
     </main>
 </body>
+
 </html>
